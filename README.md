@@ -1,4 +1,4 @@
-# template_3x2
+# power_switch_controller_3x2
 
 Authors:
 

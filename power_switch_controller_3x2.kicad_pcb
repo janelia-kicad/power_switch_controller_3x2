@@ -14,7 +14,7 @@
 
   (page A4)
   (title_block
-    (title template_3x2)
+    (title power_switch_controller_3x2)
     (rev 1.0)
   )
 
@@ -162,7 +162,7 @@
     (diff_pair_width 0.254)
   )
 
-  (module template_3x2:MODULAR_DEVICE_BASE_3X2_MALE (layer F.Cu) (tedit 5894A56C) (tstamp 589B69A7)
+  (module power_switch_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE (layer F.Cu) (tedit 5894A56C) (tstamp 589B69A7)
     (at 107.315 88.9)
     (path /589B6745)
     (fp_text reference MDB1 (at 0 0) (layer F.SilkS) hide
@@ -232,7 +232,7 @@
   (gr_text https://github.com/janelia-modular-devices (at 109.855 104.14) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1905)))
   )
-  (gr_text "Janelia Modular Device\ntemplate\npart_number: 1000\n02/2017 ver 1.0 3x2" (at 89.535 88.9 90) (layer F.SilkS)
+  (gr_text "Janelia Modular Device\npower_switch_controller\npart_number: 1000\n02/2017 ver 1.0 3x2" (at 89.535 88.9 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
 

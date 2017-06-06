@@ -11,7 +11,7 @@ version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=template_3x2.net
+LastNetListRead=power_switch_controller_3x2.net
 UseCmpFile=0
 PadDrill=0.889
 PadDrillOvalY=0.889
@@ -72,5 +72,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=template_3x2
+LibName30=power_switch_controller_3x2
 LibName31=components

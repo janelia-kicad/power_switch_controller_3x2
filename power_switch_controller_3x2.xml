@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/polidorop/git/kicad/template_3x2/template_3x2.sch</source>
+    <source>/home/polidorop/git/kicad/power_switch_controller_3x2/power_switch_controller_3x2.sch</source>
     <date>Wed 08 Feb 2017 01:52:27 PM EST</date>
     <tool>Eeschema no-vcs-found-7602~57~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>template_3x2</title>
+        <title>power_switch_controller_3x2</title>
         <company>Janelia</company>
         <rev>1.0</rev>
         <date/>
-        <source>template_3x2.sch</source>
+        <source>power_switch_controller_3x2.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -21,24 +21,24 @@
   <components>
     <comp ref="MDB1">
       <value>MODULAR_DEVICE_BASE_3X2_MALE</value>
-      <footprint>template_3x2:MODULAR_DEVICE_BASE_3X2_MALE</footprint>
+      <footprint>power_switch_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S1011E-16-ND</field>
         <field name="Description">16 Position Header Through Hole Male Pins</field>
         <field name="PartCount">2</field>
       </fields>
-      <libsource lib="template_3x2" part="MODULAR_DEVICE_BASE_3X2_MALE"/>
+      <libsource lib="power_switch_controller_3x2" part="MODULAR_DEVICE_BASE_3X2_MALE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B6745</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="template_3x2" part="MODULAR_DEVICE_BASE_3X2_MALE">
+    <libpart lib="power_switch_controller_3x2" part="MODULAR_DEVICE_BASE_3X2_MALE">
       <fields>
         <field name="Reference">MDB</field>
         <field name="Value">MODULAR_DEVICE_BASE_3X2_MALE</field>
-        <field name="Footprint">template_3x2:MODULAR_DEVICE_BASE_3X2_MALE</field>
+        <field name="Footprint">power_switch_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">S1011E-16-ND</field>
         <field name="Description">16 Position Header Through Hole Male Pins</field>
@@ -81,8 +81,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="template_3x2">
-      <uri>/home/polidorop/git/kicad/template_3x2/template_3x2.lib</uri>
+    <library logical="power_switch_controller_3x2">
+      <uri>/home/polidorop/git/kicad/power_switch_controller_3x2/power_switch_controller_3x2.lib</uri>
     </library>
   </libraries>
   <nets>

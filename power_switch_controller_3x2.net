@@ -1,15 +1,15 @@
 (export (version D)
   (design
-    (source /home/polidorop/git/kicad/template_3x2/template_3x2.sch)
+    (source /home/polidorop/git/kicad/power_switch_controller_3x2/power_switch_controller_3x2.sch)
     (date "Wed 08 Feb 2017 01:52:24 PM EST")
     (tool "Eeschema no-vcs-found-7602~57~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title template_3x2)
+        (title power_switch_controller_3x2)
         (company Janelia)
         (rev 1.0)
         (date)
-        (source template_3x2.sch)
+        (source power_switch_controller_3x2.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -17,21 +17,21 @@
   (components
     (comp (ref MDB1)
       (value MODULAR_DEVICE_BASE_3X2_MALE)
-      (footprint template_3x2:MODULAR_DEVICE_BASE_3X2_MALE)
+      (footprint power_switch_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE)
       (fields
         (field (name Vendor) digikey)
         (field (name PartNumber) S1011E-16-ND)
         (field (name Description) "16 Position Header Through Hole Male Pins")
         (field (name PartCount) 2))
-      (libsource (lib template_3x2) (part MODULAR_DEVICE_BASE_3X2_MALE))
+      (libsource (lib power_switch_controller_3x2) (part MODULAR_DEVICE_BASE_3X2_MALE))
       (sheetpath (names /) (tstamps /))
       (tstamp 589B6745)))
   (libparts
-    (libpart (lib template_3x2) (part MODULAR_DEVICE_BASE_3X2_MALE)
+    (libpart (lib power_switch_controller_3x2) (part MODULAR_DEVICE_BASE_3X2_MALE)
       (fields
         (field (name Reference) MDB)
         (field (name Value) MODULAR_DEVICE_BASE_3X2_MALE)
-        (field (name Footprint) template_3x2:MODULAR_DEVICE_BASE_3X2_MALE)
+        (field (name Footprint) power_switch_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE)
         (field (name Vendor) digikey)
         (field (name PartNumber) S1011E-16-ND)
         (field (name Description) "16 Position Header Through Hole Male Pins")
@@ -70,8 +70,8 @@
         (pin (num VDD) (name "VDD_(+9-42VDC)") (type passive))
         (pin (num VEE) (name "VEE_(+4-5VDC)") (type passive)))))
   (libraries
-    (library (logical template_3x2)
-      (uri /home/polidorop/git/kicad/template_3x2/template_3x2.lib)))
+    (library (logical power_switch_controller_3x2)
+      (uri /home/polidorop/git/kicad/power_switch_controller_3x2/power_switch_controller_3x2.lib)))
   (nets
     (net (code 1) (name "Net-(MDB1-Pad5)")
       (node (ref MDB1) (pin 5)))

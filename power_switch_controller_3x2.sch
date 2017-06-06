@@ -28,14 +28,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:template_3x2
+LIBS:power_switch_controller_3x2
 LIBS:components
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "template_3x2"
+Title "power_switch_controller_3x2"
 Date ""
 Rev "1.0"
 Comp "Janelia"
@@ -50,7 +50,7 @@ U 1 1 589B6745
 P 2650 1550
 F 0 "MDB1" H 2650 2547 60  0000 C CNN
 F 1 "MODULAR_DEVICE_BASE_3X2_MALE" H 2650 2441 60  0000 C CNN
-F 2 "template_3x2:MODULAR_DEVICE_BASE_3X2_MALE" H 600 1050 60  0001 C CNN
+F 2 "power_switch_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE" H 600 1050 60  0001 C CNN
 F 3 "" H 650 2750 60  0000 C CNN
 F 4 "digikey" H 600 1150 60  0001 C CNN "Vendor"
 F 5 "S1011E-16-ND" H 600 1250 60  0001 C CNN "PartNumber"

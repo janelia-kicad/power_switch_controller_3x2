@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name template_3x2)(type KiCad)(uri ${KIPRJMOD}/template_3x2.pretty)(options "")(descr ""))
+  (lib (name power_switch_controller_3x2)(type KiCad)(uri ${KIPRJMOD}/power_switch_controller_3x2.pretty)(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri ${KILIBS}/footprints.pretty)(options "")(descr ""))
 )
