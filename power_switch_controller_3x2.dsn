@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "no-vcs-found-0e71686~58~ubuntu16.04.1")
+    (host_version "no-vcs-found-0633d90~59~ubuntu16.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -33,11 +33,21 @@
     )
   )
   (placement
+    (component "power_switch_controller_3x2:SOD-123"
+      (place D2 118745 -99695 back 90 (PN diode_low_rev_current))
+      (place D3 116205 -99695 back 90 (PN diode_low_rev_current))
+      (place D4 113665 -99695 back 90 (PN diode_low_rev_current))
+      (place D5 111125 -99695 back 90 (PN diode_low_rev_current))
+      (place D6 108585 -99695 back 90 (PN diode_low_rev_current))
+      (place D7 106045 -99695 back 90 (PN diode_low_rev_current))
+      (place D8 103505 -99695 back 90 (PN diode_low_rev_current))
+      (place D9 100965 -99695 back 90 (PN diode_low_rev_current))
+    )
     (component power_switch_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE
       (place MDB1 107315 -88900 front 0 (PN MODULAR_DEVICE_BASE_3X2_MALE))
     )
     (component power_switch_controller_3x2:SM1210
-      (place C1 95885 -85725 back 90 (PN 10uF))
+      (place C1 95885 -83820 back 90 (PN 10uF))
     )
     (component power_switch_controller_3x2:SM1210::1
       (place C2 130175 -100330 back 180 (PN 0.1uF))
@@ -47,22 +57,22 @@
     )
     (component "power_switch_controller_3x2:LED_555-3XXX"
       (place L1 149225 -104775 front 90 (PN LED_24V))
-      (place L3 116205 -96520 front 180 (PN LED_24V))
-      (place L5 111125 -96520 front 180 (PN LED_24V))
-      (place L7 106045 -96520 front 180 (PN LED_24V))
-      (place L9 100965 -96520 front 180 (PN LED_24V))
+      (place L3 116205 -93345 front 180 (PN LED_24V))
+      (place L5 111125 -93345 front 180 (PN LED_24V))
+      (place L7 106045 -93345 front 180 (PN LED_24V))
+      (place L9 100965 -93345 front 180 (PN LED_24V))
     )
     (component "power_switch_controller_3x2:LED_555-3XXX::1"
-      (place L2 118745 -96520 front 180 (PN LED_24V))
-      (place L4 113665 -96520 front 180 (PN LED_24V))
-      (place L6 108585 -96520 front 180 (PN LED_24V))
-      (place L8 103505 -96520 front 180 (PN LED_24V))
+      (place L2 118745 -93345 front 180 (PN LED_24V))
+      (place L4 113665 -93345 front 180 (PN LED_24V))
+      (place L6 108585 -93345 front 180 (PN LED_24V))
+      (place L8 103505 -93345 front 180 (PN LED_24V))
     )
     (component power_switch_controller_3x2:DCJACK_2PIN_HIGHCURRENT
       (place P1 156210 -88900 front 270 (PN PWR_JACK_2.5x5.5))
     )
     (component power_switch_controller_3x2:HEADER_02x08_SMD
-      (place P2 109855 -85725 front 0 (PN HEADER_02X08_SMD))
+      (place P2 109855 -83820 front 0 (PN HEADER_02X08_SMD))
     )
     (component power_switch_controller_3x2:SPST_SLIDE_AS
       (place SW1 149225 -100965 front 270 (PN SPST_SLIDE_AS))
@@ -72,6 +82,18 @@
     )
   )
   (library
+    (image "power_switch_controller_3x2:SOD-123"
+      (outline (path signal 228.6  0 0  1000 0))
+      (outline (path signal 228.6  -900 0  0 900))
+      (outline (path signal 228.6  0 900  0 -900))
+      (outline (path signal 228.6  0 -900  -900 0))
+      (outline (path signal 228.6  -900 900  -900 -900))
+      (outline (path signal 228.6  -1100 0  -900 0))
+      (outline (path signal 228.6  -1400 900  1400 900))
+      (outline (path signal 228.6  -1400 -900  1400 -900))
+      (pin Rect[T]Pad_900x1200_um 1 -1700 0)
+      (pin Rect[T]Pad_900x1200_um 2 1700 0)
+    )
     (image power_switch_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE
       (outline (path signal 228.6  48895 20955  -21590 20955))
       (outline (path signal 228.6  48895 -20955  48895 20955))
@@ -331,6 +353,10 @@
       (shape (rect F.Cu -225 -915 225 915))
       (attach off)
     )
+    (padstack Rect[T]Pad_900x1200_um
+      (shape (rect F.Cu -450 -600 450 600))
+      (attach off)
+    )
     (padstack Rect[T]Pad_1016x4495.8_um
       (shape (rect F.Cu -508 -2247.9 508 2247.9))
       (attach off)
@@ -362,13 +388,13 @@
       (pins MDB1-GND C1-2 C2-2 L1-2 P1-2 U1-1 U1-18 U1-19 U1-36)
     )
     (net VEE
-      (pins MDB1-VEE C2-1 U1-6 U1-7 U1-8 U1-12 U1-25)
+      (pins MDB1-VEE C2-1 U1-8 U1-25)
     )
     (net VAA
       (pins D1-2 D1-2@1 P1-1)
     )
     (net LED_PWR
-      (pins L1-1 L2-1 L3-1 L4-1 L5-1 L6-1 L7-1 L8-1 L9-1 SW1-3)
+      (pins D2-2 D3-2 D4-2 D5-2 D6-2 D7-2 D8-2 D9-2 L1-1 SW1-3)
     )
     (net "/channels_0-7/OUT_0"
       (pins L2-2 P2-2 U1-4)
@@ -384,9 +410,6 @@
     )
     (net /CS
       (pins MDB1-10 U1-10)
-    )
-    (net /PWM_0
-      (pins MDB1-6 U1-13)
     )
     (net /RESET
       (pins MDB1-2 U1-9)
@@ -412,7 +435,37 @@
     (net "/channels_0-7/OUT_7"
       (pins L9-2 P2-16 U1-33)
     )
-    (class kicad_default ""
+    (net /MAP
+      (pins MDB1-6 U1-13)
+    )
+    (net /IN
+      (pins MDB1-5 U1-6 U1-7 U1-12)
+    )
+    (net "/channels_0-7/LP_0"
+      (pins D2-1 L2-1)
+    )
+    (net "/channels_0-7/LP_1"
+      (pins D3-1 L3-1)
+    )
+    (net "/channels_0-7/LP_2"
+      (pins D4-1 L4-1)
+    )
+    (net "/channels_0-7/LP_3"
+      (pins D5-1 L5-1)
+    )
+    (net "/channels_0-7/LP_4"
+      (pins D6-1 L6-1)
+    )
+    (net "/channels_0-7/LP_5"
+      (pins D7-1 L7-1)
+    )
+    (net "/channels_0-7/LP_6"
+      (pins D8-1 L8-1)
+    )
+    (net "/channels_0-7/LP_7"
+      (pins D9-1 L9-1)
+    )
+    (class kicad_default
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -430,7 +483,9 @@
         (clearance 101.7)
       )
     )
-    (class LEDPOWER LED_PWR
+    (class LEDPOWER "/channels_0-7/LP_0" "/channels_0-7/LP_1" "/channels_0-7/LP_2"
+      "/channels_0-7/LP_3" "/channels_0-7/LP_4" "/channels_0-7/LP_5" "/channels_0-7/LP_6"
+      "/channels_0-7/LP_7" LED_PWR
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -448,16 +503,17 @@
         (clearance 254.1)
       )
     )
-    (class SIGNAL /CS /MISO /MOSI /PWM_0 /RESET /SCK "/channels_0-7/OUT_0"
+    (class SIGNAL "" /CS /IN /MAP /MISO /MOSI /PWM_0 /RESET /SCK "/channels_0-7/OUT_0"
       "/channels_0-7/OUT_1" "/channels_0-7/OUT_2" "/channels_0-7/OUT_3" "/channels_0-7/OUT_4"
-      "/channels_0-7/OUT_5" "/channels_0-7/OUT_6" "/channels_0-7/OUT_7" "Net-(MDB1-Pad14)"
-      "Net-(MDB1-Pad15)" "Net-(MDB1-Pad16)" "Net-(MDB1-Pad17)" "Net-(MDB1-Pad18)"
-      "Net-(MDB1-Pad19)" "Net-(MDB1-Pad20)" "Net-(MDB1-Pad21)" "Net-(MDB1-Pad22)"
-      "Net-(MDB1-Pad23)" "Net-(MDB1-Pad24)" "Net-(MDB1-Pad25)" "Net-(MDB1-Pad28)"
-      "Net-(MDB1-Pad29)" "Net-(MDB1-Pad3)" "Net-(MDB1-Pad30)" "Net-(MDB1-Pad3V3)"
-      "Net-(MDB1-Pad4)" "Net-(MDB1-Pad5)" "Net-(MDB1-Pad9)" "Net-(MDB1-PadAGND)"
-      "Net-(MDB1-PadAREF)" "Net-(MDB1-PadDAC)" "Net-(U1-Pad11)" "Net-(U1-Pad26)"
-      VEE
+      "/channels_0-7/OUT_5" "/channels_0-7/OUT_6" "/channels_0-7/OUT_7" "Net-(D2-Pad1)"
+      "Net-(D3-Pad1)" "Net-(D4-Pad1)" "Net-(D5-Pad1)" "Net-(D6-Pad1)" "Net-(D7-Pad1)"
+      "Net-(D8-Pad1)" "Net-(D9-Pad1)" "Net-(MDB1-Pad14)" "Net-(MDB1-Pad15)"
+      "Net-(MDB1-Pad16)" "Net-(MDB1-Pad17)" "Net-(MDB1-Pad18)" "Net-(MDB1-Pad19)"
+      "Net-(MDB1-Pad20)" "Net-(MDB1-Pad21)" "Net-(MDB1-Pad22)" "Net-(MDB1-Pad23)"
+      "Net-(MDB1-Pad24)" "Net-(MDB1-Pad25)" "Net-(MDB1-Pad28)" "Net-(MDB1-Pad29)"
+      "Net-(MDB1-Pad3)" "Net-(MDB1-Pad30)" "Net-(MDB1-Pad3V3)" "Net-(MDB1-Pad4)"
+      "Net-(MDB1-Pad9)" "Net-(MDB1-PadAGND)" "Net-(MDB1-PadAREF)" "Net-(MDB1-PadDAC)"
+      "Net-(U1-Pad11)" "Net-(U1-Pad26)" VEE
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -477,17 +533,25 @@
     )
   )
   (wiring
-    (wire (path F.Cu 1219.2  100965 -82727.8  103505 -82727.8  106045 -82727.8  108585 -82727.8
-            111125 -82727.8  113665 -82727.8  116205 -82727.8  118745 -82727.8)(net VDD)(type protect))
-    (wire (path F.Cu 609.6  100965 -99060  103505 -99060  106045 -99060  108585 -99060
-            111125 -99060  113665 -99060  116205 -99060  118745 -99060)(net LED_PWR)(type protect))
-    (wire (path F.Cu 406.4  118745 -88722.2  118745 -93980)(net "/channels_0-7/OUT_0")(type protect))
-    (wire (path F.Cu 406.4  116205 -88722.2  116205 -93980)(net "/channels_0-7/OUT_1")(type protect))
-    (wire (path F.Cu 406.4  113665 -88722.2  113665 -93980)(net "/channels_0-7/OUT_2")(type protect))
-    (wire (path F.Cu 406.4  111125 -88722.2  111125 -93980)(net "/channels_0-7/OUT_3")(type protect))
-    (wire (path F.Cu 406.4  108585 -88722.2  108585 -93980)(net "/channels_0-7/OUT_4")(type protect))
-    (wire (path F.Cu 406.4  106045 -88722.2  106045 -93980)(net "/channels_0-7/OUT_5")(type protect))
-    (wire (path F.Cu 406.4  103505 -88722.2  103505 -93980)(net "/channels_0-7/OUT_6")(type protect))
-    (wire (path F.Cu 406.4  100965 -88722.2  100965 -93980)(net "/channels_0-7/OUT_7")(type protect))
+    (wire (path F.Cu 1219.2  100965 -80822.8  103505 -80822.8  106045 -80822.8  108585 -80822.8
+            111125 -80822.8  113665 -80822.8  116205 -80822.8  118745 -80822.8)(net VDD)(type protect))
+    (wire (path B.Cu 609.6  100965 -101395  103505 -101395  106045 -101395  108585 -101395
+            111125 -101395  113665 -101395  116205 -101395  118745 -101395)(net LED_PWR)(type protect))
+    (wire (path F.Cu 406.4  118745 -90805  118745 -86817.2)(net "/channels_0-7/OUT_0")(type protect))
+    (wire (path F.Cu 406.4  116205 -90805  116205 -86817.2)(net "/channels_0-7/OUT_1")(type protect))
+    (wire (path F.Cu 406.4  113665 -90805  113665 -86817.2)(net "/channels_0-7/OUT_2")(type protect))
+    (wire (path F.Cu 406.4  111125 -90805  111125 -86817.2)(net "/channels_0-7/OUT_3")(type protect))
+    (wire (path F.Cu 406.4  108585 -90805  108585 -86817.2)(net "/channels_0-7/OUT_4")(type protect))
+    (wire (path F.Cu 406.4  106045 -90805  106045 -86817.2)(net "/channels_0-7/OUT_5")(type protect))
+    (wire (path F.Cu 406.4  103505 -90805  103505 -86817.2)(net "/channels_0-7/OUT_6")(type protect))
+    (wire (path F.Cu 406.4  100965 -90805  100965 -86817.2)(net "/channels_0-7/OUT_7")(type protect))
+    (wire (path B.Cu 609.6  118745 -97995  118745 -95885)(net "/channels_0-7/LP_0")(type protect))
+    (wire (path B.Cu 609.6  116205 -97995  116205 -95885)(net "/channels_0-7/LP_1")(type protect))
+    (wire (path B.Cu 609.6  113665 -97995  113665 -95885)(net "/channels_0-7/LP_2")(type protect))
+    (wire (path B.Cu 609.6  111125 -97995  111125 -95885)(net "/channels_0-7/LP_3")(type protect))
+    (wire (path B.Cu 609.6  108585 -97995  108585 -95885)(net "/channels_0-7/LP_4")(type protect))
+    (wire (path B.Cu 609.6  106045 -97995  106045 -95885)(net "/channels_0-7/LP_5")(type protect))
+    (wire (path B.Cu 609.6  103505 -97995  103505 -95885)(net "/channels_0-7/LP_6")(type protect))
+    (wire (path B.Cu 609.6  100965 -97995  100965 -95885)(net "/channels_0-7/LP_7")(type protect))
   )
 )

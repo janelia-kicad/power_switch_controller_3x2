@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 2
 Title "power_switch_controller_3x2"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -119,7 +119,6 @@ NoConn ~ 1400 1000
 NoConn ~ 1400 1100
 NoConn ~ 1400 1300
 NoConn ~ 1400 1400
-NoConn ~ 1400 1500
 NoConn ~ 1400 1700
 NoConn ~ 1400 1800
 NoConn ~ 1400 1900
@@ -161,9 +160,9 @@ F 3 "" H 3500 -200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 800  4750 900 
+	4750 900  4750 800 
 Wire Wire Line
-	4750 900  3900 900 
+	3900 900  4750 900 
 Wire Wire Line
 	4450 800  4450 900 
 Connection ~ 4450 900 
@@ -368,7 +367,7 @@ $EndComp
 Wire Wire Line
 	3500 3800 3500 3850
 $Sheet
-S 5700 1850 1150 600 
+S 5700 1850 1150 700 
 U 593823E2
 F0 "channels_0-7" 60
 F1 "power_switches.sch" 60
@@ -377,7 +376,8 @@ F3 "CS" I L 5700 2050 60
 F4 "SCK" I L 5700 2150 60 
 F5 "MOSI" I L 5700 2250 60 
 F6 "MISO" O R 6850 2150 60 
-F7 "PWM" I L 5700 2350 60 
+F7 "MAP" I L 5700 2450 60 
+F8 "IN" I L 5700 2350 60 
 $EndSheet
 Wire Wire Line
 	1400 1200 1300 1200
@@ -386,7 +386,7 @@ RESET
 Wire Wire Line
 	1400 1600 1300 1600
 Text Label 1300 1600 2    60   ~ 0
-PWM_0
+MAP
 Wire Wire Line
 	1400 2000 1300 2000
 Text Label 1300 2000 2    60   ~ 0
@@ -416,8 +416,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 2250 5600 2250
 Wire Wire Line
-	5700 2350 5600 2350
-Wire Wire Line
 	6850 2150 6950 2150
 Text Label 5600 1950 2    60   ~ 0
 RESET
@@ -427,8 +425,18 @@ Text Label 5600 2150 2    60   ~ 0
 SCK
 Text Label 5600 2250 2    60   ~ 0
 MOSI
-Text Label 5600 2350 2    60   ~ 0
-PWM_0
 Text Label 6950 2150 0    60   ~ 0
 MISO
+Wire Wire Line
+	1400 1500 1300 1500
+Text Label 1300 1500 2    60   ~ 0
+IN
+Wire Wire Line
+	5700 2350 5600 2350
+Wire Wire Line
+	5700 2450 5600 2450
+Text Label 5600 2350 2    60   ~ 0
+IN
+Text Label 5600 2450 2    60   ~ 0
+MAP
 $EndSCHEMATC
