@@ -102,8 +102,8 @@
       (footprint power_switch_controller_3x2:SM1210)
       (fields
         (field (name Vendor) digikey)
-        (field (name PartNumber) 478-3586-1-ND)
-        (field (name Description) "CAP CER 0.1UF 50V 10% X7R 1210"))
+        (field (name PartNumber) 399-13229-1-ND)
+        (field (name Description) "CAP CER 0.1UF 100V X7R 1210"))
       (libsource (lib power_switch_controller_3x2) (part 0.1uF))
       (sheetpath (names /channels_0-7/) (tstamps /593823E2/))
       (tstamp 59382B78))
@@ -288,8 +288,8 @@
         (field (name Value) 0.1uF)
         (field (name Footprint) power_switch_controller_3x2:SM1210)
         (field (name Vendor) digikey)
-        (field (name PartNumber) 478-3586-1-ND)
-        (field (name Description) "CAP CER 0.1UF 50V 10% X7R 1210"))
+        (field (name PartNumber) 399-13229-1-ND)
+        (field (name Description) "CAP CER 0.1UF 100V X7R 1210"))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))

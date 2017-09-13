@@ -58,7 +58,7 @@ F 4 "digikey" H 4300 3500 60  0001 C CNN "Vendor"
 F 5 "TLE7230RCT-ND" H 4400 3600 60  0001 C CNN "PartNumber"
 F 6 "IC SW SMART OCTAL LOWSIDE PDSO36" H 4500 3700 60  0001 C CNN "Description"
 	1    3800 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3200 2750 3300 2750
@@ -88,7 +88,7 @@ F 1 "VEE" H 2817 2673 50  0000 C CNN
 F 2 "" H 2800 2500 50  0001 C CNN
 F 3 "" H 2800 2500 50  0001 C CNN
 	1    2800 2500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2800 2500 2800 3400
@@ -126,7 +126,7 @@ F 1 "GND" H 3805 3777 50  0000 C CNN
 F 2 "" H 3800 3950 50  0001 C CNN
 F 3 "" H 3800 3950 50  0001 C CNN
 	1    3800 3950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3800 3950 3800 3900
@@ -140,10 +140,10 @@ F 1 "0.1uF" H 2800 3600 30  0000 C CNN
 F 2 "power_switch_controller_3x2:SM1210" H 2838 3450 30  0001 C CNN
 F 3 "" H 2800 3600 60  0000 C CNN
 F 4 "digikey" H 2900 3800 60  0001 C CNN "Vendor"
-F 5 "478-3586-1-ND" H 3000 3900 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 3100 4000 60  0001 C CNN "Description"
+F 5 "399-13229-1-ND" H 3000 3900 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 100V X7R 1210" H 3100 4000 60  0001 C CNN "Description"
 	1    2800 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR018
@@ -154,7 +154,7 @@ F 1 "GND" H 2805 3677 50  0000 C CNN
 F 2 "" H 2800 3850 50  0001 C CNN
 F 3 "" H 2800 3850 50  0001 C CNN
 	1    2800 3850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2800 3800 2800 3850
@@ -202,7 +202,7 @@ F 4 "digikey" H 5550 3450 60  0001 C CNN "Vendor"
 F 5 "S9187-ND" H 5650 3550 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADR 2.54MM 16POS GOLD SMD" H 5750 3650 60  0001 C CNN "Description"
 	1    5450 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VDD #PWR019
@@ -213,7 +213,7 @@ F 1 "VDD" H 5167 2673 50  0000 C CNN
 F 2 "" H 5150 2500 50  0001 C CNN
 F 3 "" H 5150 2500 50  0001 C CNN
 	1    5150 2500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5150 2500 5150 3250
@@ -284,7 +284,7 @@ F 4 "digikey" H 6600 3300 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 6700 3400 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 6800 3500 60  0001 C CNN "Description"
 	1    6500 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	6500 3300 6500 3400
@@ -302,7 +302,7 @@ F 4 "digikey" H 7000 3300 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 7100 3400 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 7200 3500 60  0001 C CNN "Description"
 	1    6900 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	6900 3300 6900 3400
@@ -320,7 +320,7 @@ F 4 "digikey" H 7400 3300 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 7500 3400 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 7600 3500 60  0001 C CNN "Description"
 	1    7300 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	7300 3300 7300 3400
@@ -338,7 +338,7 @@ F 4 "digikey" H 7800 3300 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 7900 3400 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 8000 3500 60  0001 C CNN "Description"
 	1    7700 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	7700 3300 7700 3400
@@ -356,7 +356,7 @@ F 4 "digikey" H 8200 3300 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 8300 3400 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 8400 3500 60  0001 C CNN "Description"
 	1    8100 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	8100 3300 8100 3400
@@ -374,7 +374,7 @@ F 4 "digikey" H 8600 3300 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 8700 3400 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 8800 3500 60  0001 C CNN "Description"
 	1    8500 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	8500 3300 8500 3400
@@ -392,7 +392,7 @@ F 4 "digikey" H 9000 3300 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 9100 3400 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 9200 3500 60  0001 C CNN "Description"
 	1    8900 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	8900 3300 8900 3400
@@ -410,7 +410,7 @@ F 4 "digikey" H 9400 3300 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 9500 3400 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 9600 3500 60  0001 C CNN "Description"
 	1    9300 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	9300 3300 9300 3400
@@ -469,7 +469,7 @@ F 4 "digikey" H 6550 2930 60  0001 C CNN "Vendor"
 F 5 "CMHD3595 CT-ND" H 6650 3030 60  0001 C CNN "PartNumber"
 F 6 "DIODE GEN PURP 150V 150MA SOD123" H 6750 3130 60  0001 C CNN "Description"
 	1    6500 2750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_low_rev_current D3
@@ -483,7 +483,7 @@ F 4 "digikey" H 6950 2930 60  0001 C CNN "Vendor"
 F 5 "CMHD3595 CT-ND" H 7050 3030 60  0001 C CNN "PartNumber"
 F 6 "DIODE GEN PURP 150V 150MA SOD123" H 7150 3130 60  0001 C CNN "Description"
 	1    6900 2750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_low_rev_current D4
@@ -497,7 +497,7 @@ F 4 "digikey" H 7350 2930 60  0001 C CNN "Vendor"
 F 5 "CMHD3595 CT-ND" H 7450 3030 60  0001 C CNN "PartNumber"
 F 6 "DIODE GEN PURP 150V 150MA SOD123" H 7550 3130 60  0001 C CNN "Description"
 	1    7300 2750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_low_rev_current D5
@@ -511,7 +511,7 @@ F 4 "digikey" H 7750 2930 60  0001 C CNN "Vendor"
 F 5 "CMHD3595 CT-ND" H 7850 3030 60  0001 C CNN "PartNumber"
 F 6 "DIODE GEN PURP 150V 150MA SOD123" H 7950 3130 60  0001 C CNN "Description"
 	1    7700 2750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_low_rev_current D6
@@ -525,7 +525,7 @@ F 4 "digikey" H 8150 2930 60  0001 C CNN "Vendor"
 F 5 "CMHD3595 CT-ND" H 8250 3030 60  0001 C CNN "PartNumber"
 F 6 "DIODE GEN PURP 150V 150MA SOD123" H 8350 3130 60  0001 C CNN "Description"
 	1    8100 2750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_low_rev_current D7
@@ -539,7 +539,7 @@ F 4 "digikey" H 8550 2930 60  0001 C CNN "Vendor"
 F 5 "CMHD3595 CT-ND" H 8650 3030 60  0001 C CNN "PartNumber"
 F 6 "DIODE GEN PURP 150V 150MA SOD123" H 8750 3130 60  0001 C CNN "Description"
 	1    8500 2750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_low_rev_current D8
@@ -553,7 +553,7 @@ F 4 "digikey" H 8950 2930 60  0001 C CNN "Vendor"
 F 5 "CMHD3595 CT-ND" H 9050 3030 60  0001 C CNN "PartNumber"
 F 6 "DIODE GEN PURP 150V 150MA SOD123" H 9150 3130 60  0001 C CNN "Description"
 	1    8900 2750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L diode_low_rev_current D9
@@ -567,7 +567,7 @@ F 4 "digikey" H 9350 2930 60  0001 C CNN "Vendor"
 F 5 "CMHD3595 CT-ND" H 9450 3030 60  0001 C CNN "PartNumber"
 F 6 "DIODE GEN PURP 150V 150MA SOD123" H 9550 3130 60  0001 C CNN "Description"
 	1    9300 2750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6500 2850 6500 2900
