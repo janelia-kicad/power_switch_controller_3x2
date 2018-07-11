@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/power_switch_controller_3x2/power_switch_controller_3x2.sch</source>
-    <date>Fri 14 Jul 2017 02:17:19 PM EDT</date>
-    <tool>Eeschema no-vcs-found-0633d90~59~ubuntu16.04.1</tool>
+    <date>Wed 11 Jul 2018 02:00:00 PM EDT</date>
+    <tool>Eeschema 5.0.0-rc3-unknown-14ce5182~65~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>power_switch_controller_3x2</title>
@@ -36,12 +36,12 @@
       <value>MODULAR_DEVICE_BASE_3X2_MALE</value>
       <footprint>power_switch_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">S1011E-16-ND</field>
         <field name="Description">16 Position Header Through Hole Male Pins</field>
         <field name="PartCount">2</field>
+        <field name="PartNumber">S1011E-16-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="MODULAR_DEVICE_BASE_3X2_MALE"/>
+      <libsource lib="power_switch_controller_3x2" part="MODULAR_DEVICE_BASE_3X2_MALE" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B6745</tstamp>
     </comp>
@@ -49,11 +49,11 @@
       <value>PWR_JACK_2.5x5.5</value>
       <footprint>power_switch_controller_3x2:DCJACK_2PIN_HIGHCURRENT</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">CP-063BH-ND</field>
         <field name="Description">CONN PWR JACK DC 2.5X5.5 8A T/H</field>
+        <field name="PartNumber">CP-063BH-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="PWR_JACK_2.5x5.5"/>
+      <libsource lib="power_switch_controller_3x2" part="PWR_JACK_2.5x5.5" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5938152C</tstamp>
     </comp>
@@ -61,11 +61,11 @@
       <value>diode_schottky_45V_10A</value>
       <footprint>power_switch_controller_3x2:CFP15</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">568-11697-1-ND</field>
         <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
+        <field name="PartNumber">568-11697-1-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="diode_schottky_45V_10A"/>
+      <libsource lib="power_switch_controller_3x2" part="diode_schottky_45V_10A" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59381AF6</tstamp>
     </comp>
@@ -73,11 +73,11 @@
       <value>10uF</value>
       <footprint>power_switch_controller_3x2:SM1210</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">445-4536-1-ND</field>
         <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
+        <field name="PartNumber">445-4536-1-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="10uF"/>
+      <libsource lib="power_switch_controller_3x2" part="10uF" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59381C37</tstamp>
     </comp>
@@ -85,11 +85,11 @@
       <value>SPST_SLIDE_AS</value>
       <footprint>power_switch_controller_3x2:SPST_SLIDE_AS</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">360-2610-ND</field>
         <field name="Description">SWITCH SLIDE SPST 0.4VA 28V</field>
+        <field name="PartNumber">360-2610-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="SPST_SLIDE_AS"/>
+      <libsource lib="power_switch_controller_3x2" part="SPST_SLIDE_AS" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59381E78</tstamp>
     </comp>
@@ -97,11 +97,11 @@
       <value>LED_24V</value>
       <footprint>power_switch_controller_3x2:LED_555-3XXX</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="LED_24V"/>
+      <libsource lib="power_switch_controller_3x2" part="LED_24V" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>593820F1</tstamp>
     </comp>
@@ -109,11 +109,11 @@
       <value>TLE7230R</value>
       <footprint>power_switch_controller_3x2:PG-DSO-36</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">TLE7230RCT-ND</field>
         <field name="Description">IC SW SMART OCTAL LOWSIDE PDSO36</field>
+        <field name="PartNumber">TLE7230RCT-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="TLE7230R"/>
+      <libsource lib="power_switch_controller_3x2" part="TLE7230R" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>5938296C</tstamp>
     </comp>
@@ -121,11 +121,11 @@
       <value>0.1uF</value>
       <footprint>power_switch_controller_3x2:SM1210</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">399-13229-1-ND</field>
         <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="0.1uF"/>
+      <libsource lib="power_switch_controller_3x2" part="0.1uF" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59382B78</tstamp>
     </comp>
@@ -133,11 +133,11 @@
       <value>HEADER_02X08_SMD</value>
       <footprint>power_switch_controller_3x2:HEADER_02x08_SMD</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">S9187-ND</field>
         <field name="Description">CONN HEADR 2.54MM 16POS GOLD SMD</field>
+        <field name="PartNumber">S9187-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="HEADER_02X08_SMD"/>
+      <libsource lib="power_switch_controller_3x2" part="HEADER_02X08_SMD" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>593830BA</tstamp>
     </comp>
@@ -145,11 +145,11 @@
       <value>LED_24V</value>
       <footprint>power_switch_controller_3x2:LED_555-3XXX</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="LED_24V"/>
+      <libsource lib="power_switch_controller_3x2" part="LED_24V" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59384E66</tstamp>
     </comp>
@@ -157,11 +157,11 @@
       <value>LED_24V</value>
       <footprint>power_switch_controller_3x2:LED_555-3XXX</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="LED_24V"/>
+      <libsource lib="power_switch_controller_3x2" part="LED_24V" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59385360</tstamp>
     </comp>
@@ -169,11 +169,11 @@
       <value>LED_24V</value>
       <footprint>power_switch_controller_3x2:LED_555-3XXX</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="LED_24V"/>
+      <libsource lib="power_switch_controller_3x2" part="LED_24V" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>5938545F</tstamp>
     </comp>
@@ -181,11 +181,11 @@
       <value>LED_24V</value>
       <footprint>power_switch_controller_3x2:LED_555-3XXX</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="LED_24V"/>
+      <libsource lib="power_switch_controller_3x2" part="LED_24V" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>5938546A</tstamp>
     </comp>
@@ -193,11 +193,11 @@
       <value>LED_24V</value>
       <footprint>power_switch_controller_3x2:LED_555-3XXX</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="LED_24V"/>
+      <libsource lib="power_switch_controller_3x2" part="LED_24V" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>593855CD</tstamp>
     </comp>
@@ -205,11 +205,11 @@
       <value>LED_24V</value>
       <footprint>power_switch_controller_3x2:LED_555-3XXX</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="LED_24V"/>
+      <libsource lib="power_switch_controller_3x2" part="LED_24V" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>593855D8</tstamp>
     </comp>
@@ -217,11 +217,11 @@
       <value>LED_24V</value>
       <footprint>power_switch_controller_3x2:LED_555-3XXX</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="LED_24V"/>
+      <libsource lib="power_switch_controller_3x2" part="LED_24V" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>593855E3</tstamp>
     </comp>
@@ -229,11 +229,11 @@
       <value>LED_24V</value>
       <footprint>power_switch_controller_3x2:LED_555-3XXX</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">350-1723-ND</field>
         <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="LED_24V"/>
+      <libsource lib="power_switch_controller_3x2" part="LED_24V" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>593855EE</tstamp>
     </comp>
@@ -241,11 +241,11 @@
       <value>diode_low_rev_current</value>
       <footprint>power_switch_controller_3x2:SOD-123</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">CMHD3595 CT-ND</field>
         <field name="Description">DIODE GEN PURP 150V 150MA SOD123</field>
+        <field name="PartNumber">CMHD3595 CT-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current"/>
+      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>5969279D</tstamp>
     </comp>
@@ -253,11 +253,11 @@
       <value>diode_low_rev_current</value>
       <footprint>power_switch_controller_3x2:SOD-123</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">CMHD3595 CT-ND</field>
         <field name="Description">DIODE GEN PURP 150V 150MA SOD123</field>
+        <field name="PartNumber">CMHD3595 CT-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current"/>
+      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59692B98</tstamp>
     </comp>
@@ -265,11 +265,11 @@
       <value>diode_low_rev_current</value>
       <footprint>power_switch_controller_3x2:SOD-123</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">CMHD3595 CT-ND</field>
         <field name="Description">DIODE GEN PURP 150V 150MA SOD123</field>
+        <field name="PartNumber">CMHD3595 CT-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current"/>
+      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59692BEE</tstamp>
     </comp>
@@ -277,11 +277,11 @@
       <value>diode_low_rev_current</value>
       <footprint>power_switch_controller_3x2:SOD-123</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">CMHD3595 CT-ND</field>
         <field name="Description">DIODE GEN PURP 150V 150MA SOD123</field>
+        <field name="PartNumber">CMHD3595 CT-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current"/>
+      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59692C7E</tstamp>
     </comp>
@@ -289,11 +289,11 @@
       <value>diode_low_rev_current</value>
       <footprint>power_switch_controller_3x2:SOD-123</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">CMHD3595 CT-ND</field>
         <field name="Description">DIODE GEN PURP 150V 150MA SOD123</field>
+        <field name="PartNumber">CMHD3595 CT-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current"/>
+      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59692E52</tstamp>
     </comp>
@@ -301,11 +301,11 @@
       <value>diode_low_rev_current</value>
       <footprint>power_switch_controller_3x2:SOD-123</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">CMHD3595 CT-ND</field>
         <field name="Description">DIODE GEN PURP 150V 150MA SOD123</field>
+        <field name="PartNumber">CMHD3595 CT-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current"/>
+      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59692E5B</tstamp>
     </comp>
@@ -313,11 +313,11 @@
       <value>diode_low_rev_current</value>
       <footprint>power_switch_controller_3x2:SOD-123</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">CMHD3595 CT-ND</field>
         <field name="Description">DIODE GEN PURP 150V 150MA SOD123</field>
+        <field name="PartNumber">CMHD3595 CT-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current"/>
+      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59692E64</tstamp>
     </comp>
@@ -325,11 +325,11 @@
       <value>diode_low_rev_current</value>
       <footprint>power_switch_controller_3x2:SOD-123</footprint>
       <fields>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">CMHD3595 CT-ND</field>
         <field name="Description">DIODE GEN PURP 150V 150MA SOD123</field>
+        <field name="PartNumber">CMHD3595 CT-ND</field>
+        <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current"/>
+      <libsource lib="power_switch_controller_3x2" part="diode_low_rev_current" description=""/>
       <sheetpath names="/channels_0-7/" tstamps="/593823E2/"/>
       <tstamp>59692E6D</tstamp>
     </comp>
@@ -596,41 +596,41 @@
   </libraries>
   <nets>
     <net code="1" name="LED_PWR">
-      <node ref="SW1" pin="3"/>
+      <node ref="D2" pin="2"/>
       <node ref="D9" pin="2"/>
       <node ref="D8" pin="2"/>
+      <node ref="D7" pin="2"/>
       <node ref="D6" pin="2"/>
       <node ref="D5" pin="2"/>
       <node ref="D4" pin="2"/>
+      <node ref="SW1" pin="3"/>
       <node ref="D3" pin="2"/>
-      <node ref="D2" pin="2"/>
-      <node ref="D7" pin="2"/>
       <node ref="L1" pin="1"/>
     </net>
     <net code="2" name="VDD">
-      <node ref="C1" pin="1"/>
-      <node ref="MDB1" pin="VDD"/>
-      <node ref="P2" pin="13"/>
       <node ref="P2" pin="1"/>
+      <node ref="MDB1" pin="VDD"/>
       <node ref="P2" pin="3"/>
       <node ref="P2" pin="5"/>
       <node ref="P2" pin="7"/>
       <node ref="P2" pin="9"/>
       <node ref="P2" pin="11"/>
+      <node ref="P2" pin="13"/>
       <node ref="P2" pin="15"/>
+      <node ref="C1" pin="1"/>
       <node ref="SW1" pin="1"/>
       <node ref="D1" pin="1"/>
     </net>
     <net code="3" name="GND">
-      <node ref="C1" pin="2"/>
-      <node ref="P1" pin="2"/>
-      <node ref="C2" pin="2"/>
       <node ref="U1" pin="19"/>
-      <node ref="MDB1" pin="GND"/>
       <node ref="U1" pin="18"/>
       <node ref="U1" pin="36"/>
-      <node ref="L1" pin="2"/>
+      <node ref="P1" pin="2"/>
       <node ref="U1" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="MDB1" pin="GND"/>
     </net>
     <net code="4" name="VAA">
       <node ref="P1" pin="1"/>
@@ -640,27 +640,27 @@
       <node ref="MDB1" pin="13"/>
       <node ref="U1" pin="28"/>
     </net>
-    <net code="6" name="/RESET">
-      <node ref="U1" pin="9"/>
-      <node ref="MDB1" pin="2"/>
+    <net code="6" name="/IN">
+      <node ref="U1" pin="7"/>
+      <node ref="MDB1" pin="5"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="6"/>
     </net>
-    <net code="7" name="/CS">
-      <node ref="MDB1" pin="10"/>
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="8" name="/MOSI">
+    <net code="7" name="/MOSI">
       <node ref="U1" pin="29"/>
       <node ref="MDB1" pin="11"/>
     </net>
-    <net code="9" name="/MISO">
+    <net code="8" name="/MISO">
       <node ref="MDB1" pin="12"/>
       <node ref="U1" pin="27"/>
     </net>
-    <net code="10" name="/IN">
-      <node ref="U1" pin="12"/>
-      <node ref="U1" pin="6"/>
-      <node ref="U1" pin="7"/>
-      <node ref="MDB1" pin="5"/>
+    <net code="9" name="/RESET">
+      <node ref="MDB1" pin="2"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="10" name="/CS">
+      <node ref="MDB1" pin="10"/>
+      <node ref="U1" pin="10"/>
     </net>
     <net code="11" name="/MAP">
       <node ref="U1" pin="13"/>
@@ -669,8 +669,8 @@
     <net code="12" name="Net-(MDB1-Pad3)">
       <node ref="MDB1" pin="3"/>
     </net>
-    <net code="13" name="Net-(MDB1-Pad17)">
-      <node ref="MDB1" pin="17"/>
+    <net code="13" name="Net-(MDB1-PadAGND)">
+      <node ref="MDB1" pin="AGND"/>
     </net>
     <net code="14" name="Net-(MDB1-Pad18)">
       <node ref="MDB1" pin="18"/>
@@ -690,125 +690,125 @@
     <net code="19" name="Net-(MDB1-PadDAC)">
       <node ref="MDB1" pin="DAC"/>
     </net>
-    <net code="20" name="Net-(MDB1-Pad16)">
-      <node ref="MDB1" pin="16"/>
+    <net code="20" name="Net-(MDB1-Pad17)">
+      <node ref="MDB1" pin="17"/>
     </net>
-    <net code="21" name="Net-(MDB1-PadAGND)">
-      <node ref="MDB1" pin="AGND"/>
-    </net>
-    <net code="22" name="Net-(MDB1-PadAREF)">
+    <net code="21" name="Net-(MDB1-PadAREF)">
       <node ref="MDB1" pin="AREF"/>
     </net>
-    <net code="23" name="Net-(MDB1-Pad21)">
+    <net code="22" name="Net-(MDB1-Pad21)">
       <node ref="MDB1" pin="21"/>
     </net>
-    <net code="24" name="Net-(MDB1-Pad4)">
+    <net code="23" name="Net-(MDB1-Pad4)">
       <node ref="MDB1" pin="4"/>
     </net>
-    <net code="25" name="Net-(MDB1-Pad9)">
+    <net code="24" name="Net-(MDB1-Pad9)">
       <node ref="MDB1" pin="9"/>
     </net>
-    <net code="26" name="Net-(MDB1-Pad20)">
+    <net code="25" name="Net-(MDB1-Pad20)">
       <node ref="MDB1" pin="20"/>
     </net>
-    <net code="27" name="Net-(MDB1-Pad30)">
+    <net code="26" name="Net-(MDB1-Pad30)">
       <node ref="MDB1" pin="30"/>
     </net>
-    <net code="28" name="Net-(MDB1-Pad22)">
+    <net code="27" name="Net-(MDB1-Pad22)">
       <node ref="MDB1" pin="22"/>
     </net>
-    <net code="29" name="Net-(MDB1-Pad23)">
+    <net code="28" name="Net-(MDB1-Pad23)">
       <node ref="MDB1" pin="23"/>
     </net>
-    <net code="30" name="Net-(MDB1-Pad14)">
+    <net code="29" name="Net-(MDB1-Pad14)">
       <node ref="MDB1" pin="14"/>
     </net>
-    <net code="31" name="Net-(MDB1-Pad24)">
+    <net code="30" name="Net-(MDB1-Pad24)">
       <node ref="MDB1" pin="24"/>
     </net>
-    <net code="32" name="Net-(MDB1-Pad15)">
+    <net code="31" name="Net-(MDB1-Pad15)">
       <node ref="MDB1" pin="15"/>
     </net>
-    <net code="33" name="Net-(MDB1-Pad25)">
+    <net code="32" name="Net-(MDB1-Pad25)">
       <node ref="MDB1" pin="25"/>
+    </net>
+    <net code="33" name="Net-(MDB1-Pad16)">
+      <node ref="MDB1" pin="16"/>
     </net>
     <net code="34" name="VEE">
       <node ref="U1" pin="8"/>
-      <node ref="U1" pin="25"/>
-      <node ref="MDB1" pin="VEE"/>
       <node ref="C2" pin="1"/>
+      <node ref="MDB1" pin="VEE"/>
+      <node ref="U1" pin="25"/>
     </net>
-    <net code="35" name="/channels_0-7/OUT_3">
-      <node ref="U1" pin="15"/>
-      <node ref="P2" pin="8"/>
-      <node ref="L5" pin="2"/>
-    </net>
-    <net code="36" name="/channels_0-7/OUT_2">
-      <node ref="L4" pin="2"/>
-      <node ref="U1" pin="14"/>
-      <node ref="P2" pin="6"/>
-    </net>
-    <net code="37" name="/channels_0-7/OUT_1">
-      <node ref="L3" pin="2"/>
-      <node ref="P2" pin="4"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="38" name="/channels_0-7/OUT_0">
-      <node ref="P2" pin="2"/>
-      <node ref="L2" pin="2"/>
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="39" name="/channels_0-7/OUT_4">
+    <net code="35" name="/channels_0-7/OUT_4">
       <node ref="P2" pin="10"/>
       <node ref="L6" pin="2"/>
       <node ref="U1" pin="22"/>
     </net>
+    <net code="36" name="/channels_0-7/OUT_3">
+      <node ref="P2" pin="8"/>
+      <node ref="U1" pin="15"/>
+      <node ref="L5" pin="2"/>
+    </net>
+    <net code="37" name="/channels_0-7/OUT_2">
+      <node ref="P2" pin="6"/>
+      <node ref="U1" pin="14"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="38" name="/channels_0-7/LP_2">
+      <node ref="D4" pin="1"/>
+      <node ref="L4" pin="1"/>
+    </net>
+    <net code="39" name="/channels_0-7/OUT_1">
+      <node ref="U1" pin="5"/>
+      <node ref="L3" pin="2"/>
+      <node ref="P2" pin="4"/>
+    </net>
     <net code="40" name="/channels_0-7/OUT_5">
-      <node ref="U1" pin="23"/>
-      <node ref="L7" pin="2"/>
       <node ref="P2" pin="12"/>
+      <node ref="L7" pin="2"/>
+      <node ref="U1" pin="23"/>
     </net>
     <net code="41" name="/channels_0-7/OUT_6">
-      <node ref="P2" pin="14"/>
       <node ref="U1" pin="32"/>
       <node ref="L8" pin="2"/>
+      <node ref="P2" pin="14"/>
     </net>
     <net code="42" name="/channels_0-7/OUT_7">
-      <node ref="U1" pin="33"/>
-      <node ref="L9" pin="2"/>
       <node ref="P2" pin="16"/>
+      <node ref="L9" pin="2"/>
+      <node ref="U1" pin="33"/>
     </net>
-    <net code="43" name="Net-(D2-Pad1)">
+    <net code="43" name="/channels_0-7/OUT_0">
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="44" name="/channels_0-7/LP_0">
       <node ref="L2" pin="1"/>
       <node ref="D2" pin="1"/>
     </net>
-    <net code="44" name="Net-(D3-Pad1)">
+    <net code="45" name="/channels_0-7/LP_1">
       <node ref="L3" pin="1"/>
       <node ref="D3" pin="1"/>
     </net>
-    <net code="45" name="Net-(D4-Pad1)">
-      <node ref="L4" pin="1"/>
-      <node ref="D4" pin="1"/>
-    </net>
-    <net code="46" name="Net-(D5-Pad1)">
+    <net code="46" name="/channels_0-7/LP_3">
       <node ref="L5" pin="1"/>
       <node ref="D5" pin="1"/>
     </net>
-    <net code="47" name="Net-(D6-Pad1)">
-      <node ref="D6" pin="1"/>
+    <net code="47" name="/channels_0-7/LP_4">
       <node ref="L6" pin="1"/>
+      <node ref="D6" pin="1"/>
     </net>
-    <net code="48" name="Net-(D7-Pad1)">
-      <node ref="D7" pin="1"/>
+    <net code="48" name="/channels_0-7/LP_5">
       <node ref="L7" pin="1"/>
+      <node ref="D7" pin="1"/>
     </net>
-    <net code="49" name="Net-(D8-Pad1)">
-      <node ref="D8" pin="1"/>
+    <net code="49" name="/channels_0-7/LP_6">
       <node ref="L8" pin="1"/>
+      <node ref="D8" pin="1"/>
     </net>
-    <net code="50" name="Net-(D9-Pad1)">
-      <node ref="L9" pin="1"/>
+    <net code="50" name="/channels_0-7/LP_7">
       <node ref="D9" pin="1"/>
+      <node ref="L9" pin="1"/>
     </net>
     <net code="51" name="Net-(U1-Pad11)">
       <node ref="U1" pin="11"/>
