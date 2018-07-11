@@ -1,0 +1,15 @@
+# Created 2018-07-11 Wed 14:31
+* Bill of Materials
+#+RESULTS: pcb-parts
+| Item | Reference(s)               | Quantity | PartNumber     | Vendor  | Description                               |
+|------+----------------------------+----------+----------------+---------+-------------------------------------------|
+|    1 | C1                         |        1 | 445-4536-1-ND  | digikey | CAP CER 10UF 50V 10% X7S 1210             |
+|    2 | C2                         |        1 | 399-13229-1-ND | digikey | CAP CER 0.1UF 100V X7R 1210               |
+|    3 | D1                         |        1 | 568-11697-1-ND | digikey | DIODE SCHOTTKY 45V 10A CFP15              |
+|    4 | D2 D3 D4 D5 D6 D7 D8 D9    |        8 | CMHD3595 CT-ND | digikey | DIODE GEN PURP 150V 150MA SOD123          |
+|    5 | L1 L2 L3 L4 L5 L6 L7 L8 L9 |        9 | 350-1723-ND    | digikey | LED 2MM 24V VERTICAL RED PC MNT           |
+|    6 | MDB1                       |        2 | S1011E-16-ND   | digikey | 16 Position Header Through Hole Male Pins |
+|    7 | P1                         |        1 | CP-063BH-ND    | digikey | CONN PWR JACK DC 2.5X5.5 8A T/H           |
+|    8 | P2                         |        1 | S9187-ND       | digikey | CONN HEADR 2.54MM 16POS GOLD SMD          |
+|    9 | SW1                        |        1 | 360-2610-ND    | digikey | SWITCH SLIDE SPST 0.4VA 28V               |
+|   10 | U1                         |        1 | TLE7230RCT-ND  | digikey | IC SW SMART OCTAL LOWSIDE PDSO36          |

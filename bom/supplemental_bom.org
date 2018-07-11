@@ -1,0 +1,16 @@
+* Supplemental Bill of Materials
+#+RESULTS: supplemental-parts
+| Item | Quantity | PartNumber   | Vendor  | Description                       |
+|------+----------+--------------+---------+-----------------------------------|
+|    1 |       32 | WM2800-ND    | digikey | CONN HOUSING 2POS .100 SINGLE     |
+|    2 |       64 | WM2512-ND    | digikey | CONN TERM FEMALE 22-24AWG GOLD    |
+|    3 |       64 | WM2513-ND    | digikey | CONN TERM FEMALE 24-30AWG GOLD    |
+|    4 |        4 | AKC16H-ND    | digikey | CONN IDC SKT 16POS W/POL 15 GOLD  |
+|    5 |        1 | MC16M-300-ND | digikey | CBL RIBN 16COND 0.050 MULTI 300ft |
+|    6 |        4 | APK16B-ND    | digikey | CONN IDC PIN 16POS 30AU NO LATCH  |
+|    7 |       32 | WM2900-ND    | digikey | CONN HOUSING 2POS .100 W/LATCH    |
+|    8 |       64 | WM2570-ND    | digikey | CONN TERM FEMALE 22-24AWG GOLD    |
+|    9 |       64 | WM2572-ND    | digikey | CONN SOCKET 24-30AWG CRIMP 30AU   |
+|   10 |       32 | WM2533-ND    | digikey | CONN HOUSING MALE 2POS .100       |
+|   11 |       64 | WM2566-ND    | digikey | CONN PIN 24-30AWG CRIMP 30GOLD    |
+|   12 |       64 | WM2567-ND    | digikey | CONN TERM MALE 22-24AWG GOLD      |

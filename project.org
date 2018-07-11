@@ -1,0 +1,20 @@
+* Header                                                           :noexport:
+
+  #+MACRO: name power_switch_controller_5x3
+  #+MACRO: version 1.1
+  #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/power_switch_controller_5x3
+  #+AUTHOR: Peter Polidoro
+  #+EMAIL: peterpolidoro@gmail.com
+
+* Description
+
+  This board controls up to 8 low-side power switches for turning on and off
+  solenoids, relays, and resistive loads.
+
+* Assembly Instructions
+
+  - Solder header pins into the driver board, making note of TOP label.
+    Insert header pins on bottom of board so that the long unsoldered header
+    pins point down when the TOP label faces up.
+  - Solder surface mount and through hole components onto the pcb.
