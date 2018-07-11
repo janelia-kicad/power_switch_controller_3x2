@@ -1,11 +1,11 @@
-# Created 2018-07-11 Wed 14:38
+# Created 2018-07-11 Wed 14:41
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
-- Name :: power_switch_controller_5x3
+- Name :: power_switch_controller_3x2
 - Version :: 1.1
 - License :: Open-Source Hardware
-- URL :: https://github.com/janelia-kicad/power_switch_controller_5x3
+- URL :: https://github.com/janelia-kicad/power_switch_controller_3x2
 - Author :: Peter Polidoro
 - Email :: peterpolidoro@gmail.com
 

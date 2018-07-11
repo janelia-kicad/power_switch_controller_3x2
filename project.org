@@ -1,9 +1,9 @@
 * Header                                                           :noexport:
 
-  #+MACRO: name power_switch_controller_5x3
+  #+MACRO: name power_switch_controller_3x2
   #+MACRO: version 1.1
   #+MACRO: license Open-Source Hardware
-  #+MACRO: url https://github.com/janelia-kicad/power_switch_controller_5x3
+  #+MACRO: url https://github.com/janelia-kicad/power_switch_controller_3x2
   #+AUTHOR: Peter Polidoro
   #+EMAIL: peterpolidoro@gmail.com
 
